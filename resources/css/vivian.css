@@ -1,13 +1,14 @@
 .banner {
     background-color: #4d00f4;
     color: white;
-    margin-top: 75px;
+    margin: 0px;
     text-align: center;
     padding: 100px 0;
 }
 
 h1 {
     font-size: 100px;
+    margin-top: 0px;
 }
 
 #vivian-pic {
@@ -39,6 +40,10 @@ h1 {
     height: 45px;
 }
 
+.button:visited {
+    src: url(https://www.crazygames.com/t/penguin);
+}
+
 .penguin {
     border: 10px solid cyan;
     margin-top: 10px;
@@ -46,6 +51,24 @@ h1 {
     background-color: orange;
 }
 
+.narutovideo {
+    border: 5px dotted #ff5e00;
+    padding: 5px;
+}
+
+figure {
+    display: inline-block;
+}
+
 figcaption {
-    text-align: left;
+    text-align: center;
+}
+
+iframe {
+    display: inline-block;
+    display: block;
+}
+
+.vivianinfo {
+    display: inline-block;
 }
